@@ -1,9 +1,28 @@
-body {
-  color:blue;
-  background-color: purple;
-}
+
 
 
 body div {
+  color: white;
+}
+
+.container {
+  background-color: blue;
+  display: flex;
+
+}
+
+ul {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding: 20px;
+  justify-content: space-evenly;
+}
+
+
+li:hover {
+  text-decoration: underline;
+  cursor: pointer;
   color: white;
 }
