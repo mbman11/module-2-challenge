@@ -2,3 +2,8 @@ body {
   color:blue;
   background-color: purple;
 }
+
+
+body div {
+  color: white;
+}
