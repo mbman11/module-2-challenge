@@ -157,3 +157,78 @@ li:hover {
   width: 75vw;
   line-height: 25px;
 }
+/* about :end */
+
+
+
+/* work :start */
+
+.box1 {
+  background-image: url("../../assets/images/visax-d8LP0fzYNY0-unsplash.jpg");
+  background-position: cover;
+  background-repeat: none;
+  background-position: center;
+  border: solid 10px #92CDCD ;
+  height: 300px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.box2 {
+  display: flex;
+  background-image: url("../../assets/images/visax-d8LP0fzYNY0-unsplash.jpg");
+  background-position: cover;
+  background-repeat: none;
+  background-position: center;
+  border: solid 10px #92CDCD ;
+  height: 200px;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.box3 {
+  display: flex;
+  background-image: url("../../assets/images/visax-d8LP0fzYNY0-unsplash.jpg");
+  background-position: cover;
+  background-repeat: none;
+  background-position: center;
+  border: solid 10px #92CDCD ;
+  height: 200px;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+
+.sidebyside {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+
+.sec-title-2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: top;
+  text-align: right;
+  border-right: solid #445877;
+  color:  #445877;
+  font-size: 38px;
+  margin-right: 50px;
+  padding-right: 20px;
+  height: 750px;
+  width: 20vw;
+}
+
+
+.work-subtitle {
+  padding: 10px;
+  /* margin-right: 100px; */
+  margin-bottom: 20px;
+  display: flex;
+  color: #32343D;
+  background-color: #92CDCD;
+  background-color: red;
+  height: 50px;
+}
+/* work end */
