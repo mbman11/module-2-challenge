@@ -1,10 +1,7 @@
 
 
 
-body div {
-  color: white;
-}
-
+/* nav :start */
 .top-nav{
   height: 80px;
   background-color: #32343D;
@@ -97,8 +94,11 @@ li:hover {
   cursor: pointer;
   color: white;
 }
+/* nav end */
 
 
+
+/* hero/image banner start */
 .hero-section {
   display: flex;
   align-items: flex-end;
@@ -129,17 +129,86 @@ li:hover {
 }
 
 
-.container-2 {
+
+/* about me section start */
+
+.container {
+  margin-top: 50px;
   display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
 }
 
-.box {
-  height: 100px;
-  width: 100px;
-  color: black;
-  background-color: aquamarine;
+
+.sec-title {
+  display: flex;
+  justify-content: flex-end;
+  align-items: top;
+  text-align: right;
+  border-right: solid #445877;
+  color:  #445877;
+  font-size: 38px;
+  margin-right: 50px;
+  padding-right: 20px;
+  height: 250px;
+  width: 20vw;
+}
+
+.aboutp {
+  font-size: 16px;
+  padding-right: 50px;
+  width: 75vw;
+  line-height: 25px;
+}
+
+/* about me section end */
+
+
+
+
+
+.container-2 {
+  display: flex;
+  flex-direction: column;
   margin-top: 50px;
-  flex: 1 2 100px;
+  background-color: red;
+}
+
+.box1 {
+  display: flex;
+  flex-direction: column;
+  background-color: blue;
+  height: 200px;
+  padding-right: 50px;
+  width: 75vw;
+}
+.box2 {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(0, 221, 255);
+  height: 200px;
+  padding-right: 50px;
+  width: 75vw;
+}
+.box3 {
+  background-color: purple;
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  padding-right: 50px;
+  width: 75vw;
+}
+.box4 {
+  background-color: yellow;
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  padding-right: 50px;
+  width: 75vw;
+}
+.box5 {
+  background-color: pink;
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  padding-right: 50px;
+  width: 75vw;
 }
