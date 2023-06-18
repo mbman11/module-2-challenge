@@ -1,10 +1,7 @@
 
 
 
-body div {
-  color: white;
-}
-
+/* nav :start */
 .top-nav{
   height: 80px;
   background-color: #32343D;
@@ -97,8 +94,11 @@ li:hover {
   cursor: pointer;
   color: white;
 }
+/* nav end */
 
 
+
+/* hero/image banner start */
 .hero-section {
   display: flex;
   align-items: flex-end;
@@ -129,17 +129,38 @@ li:hover {
 }
 
 
-.container-2 {
+
+/* about me section start */
+
+.container {
+  margin-top: 50px;
   display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
 }
 
-.box {
-  height: 100px;
-  width: 100px;
-  color: black;
-  background-color: aquamarine;
-  margin-top: 50px;
-  flex: 1 2 100px;
+
+.sec-title {
+  display: flex;
+  justify-content: flex-end;
+  align-items: top;
+  text-align: right;
+  border-right: solid #445877;
+  color:  #445877;
+  font-size: 38px;
+  margin-right: 50px;
+  padding-right: 20px;
+  height: 250px;
+  width: 20vw;
 }
+
+.aboutp {
+  font-size: 16px;
+  padding-right: 50px;
+  width: 75vw;
+  line-height: 25px;
+}
+
+/* about me section end */
+
+
+
+
