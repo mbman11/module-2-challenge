@@ -45,7 +45,7 @@ h1 {
 }
 
 
-ul {
+.top-nav ul {
   align-items: center;
   width: 100%;
   display: flex;
@@ -57,7 +57,7 @@ ul {
   margin-right: 50px;
 }
 @media screen and (max-width:770px){
-  ul {
+  .top-nav ul {
     margin-right: 0;
     padding-left: 10px;
   }
@@ -65,14 +65,14 @@ ul {
 
 
 
-li {
+.top-nav li {
   border-bottom: solid #92CDCD;
   border-width: 4px;
   padding: 4px;
   font-size: 24px;
 }
 @media screen and (max-width:770px){
-  li {
+ .top-nav li {
     display: flex;
     font-size: 20px;
     border-width: 4;
@@ -80,7 +80,7 @@ li {
   }
 }
 @media screen and (max-width:640px){
-  li {
+  .top-nav li {
     display: flex;
     font-size: 12px;
     border-width: 4;
@@ -89,7 +89,7 @@ li {
   }
 }
 
-li:hover {
+.top-nav li:hover {
   cursor: pointer;
   color: white;
 }
@@ -142,13 +142,15 @@ li:hover {
   justify-content: flex-end;
   align-items: top;
   text-align: right;
-  border-right: solid #445877;
+  border-right: solid #445877 5px;
   color:  #445877;
   font-size: 38px;
   margin-right: 50px;
   padding-right: 20px;
   height: 250px;
   width: 20vw;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 600;
 }
 
 .aboutp {
@@ -200,7 +202,7 @@ li:hover {
 }
 
 
-.sidebyside {
+.sidebysideboxes {
   display: flex;
   justify-content: space-evenly;
   gap: 20px;
@@ -209,15 +211,17 @@ li:hover {
 
 .sec-title-2 {
   display: flex;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 600;
   justify-content: flex-end;
   align-items: top;
   text-align: right;
-  border-right: solid #445877;
+  border-right: solid #445877 5px;
   color:  #445877;
   font-size: 38px;
   margin-right: 50px;
   padding-right: 20px;
-  height: 750px;
+  height: 850px;
   width: 20vw;
 }
 
@@ -235,4 +239,46 @@ li:hover {
   height: 50px;
 }
 
+@media screen and (max-width:800px)
+{
+  .work-subtitle {
+    font-size: 10px;
+    width: 80px;
+  }
+}
+
+
 /* work end */
+
+
+
+
+/* contact start */
+
+
+#contact-title {
+  margin-top: 20px;
+  height: 100px;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+
+}
+
+footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: -50px;
+  width: 75%;
+}
+
+footer li {
+  display: flex;
+  border-bottom: solid #445877;
+  border-width: 4px;
+  padding: 4px;
+  font-size: 24px;
+}
