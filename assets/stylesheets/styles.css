@@ -1,6 +1,7 @@
 
 
 
+/* nav :start */
 .top-nav{
   height: 80px;
   background-color: #32343D;
@@ -95,8 +96,11 @@ h1 {
 }
 /* nav end */
 
+/* nav end */
 
 
+
+/* hero/image banner start */
 /* hero/image banner start */
 .hero-section {
   display: flex;
