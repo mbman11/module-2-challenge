@@ -9,7 +9,8 @@
   align-items: center;
 }
 
-
+/* 
+left side top nav start*/
 .logo-box {
   align-items: center;
   height: 60px;
@@ -44,8 +45,10 @@ h1 {
     font-size: 20px;
   }
 }
+/* left side top nav end */
 
 
+/* right side top nav start*/
 .top-nav ul {
   align-items: center;
   width: 100%;
@@ -66,14 +69,16 @@ h1 {
 
 
 
-.top-nav li {
+.top-nav li a {
   border-bottom: solid #92CDCD;
   border-width: 4px;
   padding: 4px;
   font-size: 24px;
+  color: #92CDCD;
+  text-decoration: none;
 }
 @media screen and (max-width:770px){
- .top-nav li {
+ .top-nav li a{
     display: flex;
     font-size: 20px;
     border-width: 4;
@@ -81,27 +86,27 @@ h1 {
   }
 }
 @media screen and (max-width:640px){
-  .top-nav li {
+  .top-nav li a{
     display: flex;
     font-size: 12px;
     border-width: 4;
     padding: 0;
-
+    color: #92CDCD;
   }
 }
 
-.top-nav li:hover {
+.top-nav li a:hover {
   cursor: pointer;
   color: white;
 }
-/* nav end */
 
+/* right side top nav end */
 /* nav end */
 
 
 
 /* hero/image banner start */
-/* hero/image banner start */
+
 .hero-section {
   display: flex;
   align-items: flex-end;
@@ -130,11 +135,9 @@ h1 {
 
   }
 }
-
-
+/* hero section end */
 
 /* about me section start */
-
 .container {
   margin-top: 50px;
   display: flex;
@@ -157,11 +160,30 @@ h1 {
   font-weight: 600;
 }
 
+@media screen and (max-width:500px)
+{
+  .sec-title {
+    font-size: 24px;
+    margin-left: 10px;
+    width: 80px;
+    padding: 10px;
+    height: 700px;
+  }
+}
+
+
 .aboutp {
   font-size: 16px;
   padding-right: 50px;
   width: 75vw;
   line-height: 25px;
+}
+
+@media screen and (max-width:500px)
+{
+  .aboutp {
+    font-size: 14px;
+  }
 }
 /* about :end */
 
@@ -179,6 +201,17 @@ h1 {
   height: 400px;
   width: 100%;
   margin-bottom: 20px;
+  opacity: 1.0;
+}
+
+
+#overlay:hover  {
+  background-position: cover;
+  background-repeat: none;
+  background-position: center;
+  background-image: url("../../assets/images/visax-d8LP0fzYNY0-unsplash.jpg");
+  background: rgba(255, 255, 0 ); 
+  opacity: 0.5;
 }
 
 .box2 {
@@ -229,6 +262,15 @@ h1 {
   width: 20vw;
 }
 
+@media screen and (max-width:500px)
+{
+  .sec-title-2 {
+    font-size: 24px;
+    margin-left: 10px;
+    width: 80px;
+    padding: 10px;
+  }
+}
 
 .work-subtitle {
   display: flex;
@@ -243,23 +285,20 @@ h1 {
   height: 50px;
 }
 
-@media screen and (max-width:800px)
+@media screen and (max-width:500px)
 {
   .work-subtitle {
     font-size: 10px;
     width: 80px;
+    padding: 10px;
   }
 }
-
-
 /* work end */
 
 
 
 
 /* contact start */
-
-
 #contact-title {
   margin-top: 20px;
   height: 100px;
@@ -286,3 +325,37 @@ footer li {
   padding: 4px;
   font-size: 24px;
 }
+
+@media screen and (max-width:950px)
+{
+  .footer li {
+    display: flex;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width:750px)
+{
+  .footer li {
+    display: flex;
+    font-size: 10px;
+  }
+}
+
+
+@media screen and (max-width:500px)
+{
+  .footer li {
+    display: flex;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width:500px)
+{
+  #contact-title {
+    font-size: 20px;
+    margin-left: 12px;
+  }
+}
+/* contact :end */
