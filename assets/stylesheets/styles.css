@@ -220,15 +220,20 @@ h1 {
 
 .box2 {
   display: flex;
-  background-image: url("../../assets/images/visax-d8LP0fzYNY0-unsplash.jpg");
+  background-image: url("../../assets/images/lawLookup.png");
   background-position: cover;
   background-repeat: none;
   background-position: center;
   border: solid 10px #92CDCD ;
-  height: 200px;
-  width: 50%;
+height: 200px;
+width: 50vw;
   margin-bottom: 20px;
   opacity: 0.8;
+}
+
+.law {
+  background-image: url("../../assets/images/lawLookup.png");
+
 }
 
 .box3 {
